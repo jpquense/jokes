@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #4897d8;
+	font-family: 'Nanum Pen Script', 'Roboto Mono', monospace;
+
+}
+
+main, footer {
+	max-width: 800px;
+}
+
+h1 {
+	color: whitesmoke;
+	font-size: 28px;
+	margin-top: 40px;
+}
+
+p {
+	color: whitesmoke;
+}
+
+footer {
+	text-align: right;
+	margin-top: 10px;
+}
+
+div.card, btn {
+	
+}
+
+button.btn {
+	background-color: white;
+	color: black;
+}
+
+button.btn:hover {
+	background-color: black;
+	color: whitesmoke;
+}
+
+.js-color {
+	background-color: #5e0231;
+	color: white;
+}
+
+.quotes {
+	font-size: 150px;
+	line-height: 0.6em;
+	opacity:0.2;
+}
+

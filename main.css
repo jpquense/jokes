@@ -5,7 +5,7 @@
 body {
 	background-color: #4897d8;
 	font-family: 'Nanum Pen Script', 'Roboto Mono', monospace;
-
+	font-size: 22px;
 }
 
 main, footer {
@@ -25,10 +25,6 @@ p {
 footer {
 	text-align: right;
 	margin-top: 10px;
-}
-
-div.card, btn {
-	
 }
 
 button.btn {

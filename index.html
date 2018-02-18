@@ -16,7 +16,7 @@
 		<header role="banner">
 			<h1>That's What She Said</h1>
 		</header>
-		<main role="main" class>
+		<main role="main">
 			<div class="card">
 				<div class="card-header">
 					Joke generator
@@ -35,8 +35,15 @@
 				<button class="js-btn btn btn-primary btn-block">What else did she say?</button>
 			</section>
 		</main>
-		<footer role="contentinfo">
-			<p>by phoenixKoding</p>
+		
+		<footer role="contentinfo" class="row links">
+			<div class="twitter">
+				<!-- can i use a template literal here and how? -->
+				<a href=`https://twitter.com/share?ref_src=twsrc%5Etfw?text=${joke}` class="twitter-share-button col" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			
+
+			<p class="col text-right">by phoenixKoding</p>
 		</footer>
 	</div>
 

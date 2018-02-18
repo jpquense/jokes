@@ -19,12 +19,7 @@ h1 {
 }
 
 p {
-	color: whitesmoke;
-}
-
-footer {
-	text-align: right;
-	margin-top: 10px;
+	color: white;
 }
 
 button.btn {
@@ -35,6 +30,11 @@ button.btn {
 button.btn:hover {
 	background-color: black;
 	color: whitesmoke;
+}
+
+.twitter {
+	margin-left: 25px;
+	margin-top: 5px;
 }
 
 .js-color {

@@ -5,7 +5,7 @@ $('.js-btn').click(e => {
 })
 
 function generateJoke() {
-	$.getJSON('https://icanhazdadjoke.com', renderJoke);
+	$.getJSON('https://icanhazdadjoke.com').then(renderJoke).catch(err);
 }
 
 function renderJoke(response) {
@@ -20,5 +20,7 @@ function renderJoke(response) {
 	$('.js-color').css('background-color', colors[rand]);
 }
 																								 
-         
+function err() {
+	console.log('bummer!');
+}        
   
